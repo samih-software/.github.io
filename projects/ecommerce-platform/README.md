@@ -1,10 +1,15 @@
-# distributed-ecommerce-platform
-Personal distributed e-commerce platform with a Spring Boot REST API, separate delivery service, and React front-end. Includes authentication (JWT), payments (Stripe), and MySQL database.
+# Distributed E-Commerce Platform
+
+Personal distributed e-commerce platform with a **Spring Boot REST API**, separate delivery service, and **React front-end**. Includes authentication (JWT), payments (Stripe), and MySQL database.
+
+---
 
 ## System Design Architecture
 Overview of the system architecture showing the components, data flow, and interactions within the application.
 
-![System Design Architecture](https://github.com/user-attachments/assets/a130f794-fe47-4521-bdd5-103f35435f34)
+![System Design Architecture](./assets/system-architecture.png)
+
+---
 
 ## Components
 
@@ -51,63 +56,65 @@ Overview of the system architecture showing the components, data flow, and inter
 - **Apache Cassandra Database:** Stores delivery-related data. Accessed by Delivery API via Hibernate. CQL script run on Docker to generate databases.  
   - [Cassandra Documentation](https://cassandra.apache.org/doc/latest/cassandra/installing/installing.html)
 
+---
+
 ## Website Flow
 
 A quick overview of the user journey through the website: from landing to order completion.
 
----
-
 ### 0. Start Page
 Landing page where users can explore the platform or navigate to login.
 
-![Start Page](https://github.com/user-attachments/assets/9639ce0b-00b7-451d-ae35-88de92c70cd6)
-
----
+![Start Page](./assets/start-page.png)
 
 ### 1. Login
 Secure login page to access the user account.
 
-![Login Page](https://github.com/user-attachments/assets/ef057e99-43bc-49ca-ba45-698b6058a476)
-
----
+![Login Page](./assets/login-page.png)
 
 ### 2. Order Page
 Browse products, select items, and add to cart.
 
-![Order Page](https://github.com/user-attachments/assets/b821f85f-44ce-4234-bc5b-9e5539dc17b6)
-
----
+![Order Page](./assets/order-page.png)
 
 ### 3. Checkout Page
 Review order summary and confirm items.
 
-![Checkout Page](https://github.com/user-attachments/assets/74c360a7-25a4-4a09-a7e5-3b1d0776edc4)
-
----
+![Checkout Page](./assets/checkout-page.png)
 
 ### 4. Stripe Payment Page
 Secure payment processing via Stripe.
 
-![Stripe Payment Page](https://github.com/user-attachments/assets/62979885-0e50-4230-ad73-c0c473d5ae2d)
-
----
+![Stripe Payment Page](./assets/stripe-payment-page.png)
 
 ### 5. Order Verification Page
 Confirmation page showing successful order and order details.
 
-![Order Verification Page](https://github.com/user-attachments/assets/865091bc-bcda-44e2-945e-12fa9010470b)
-
----
+![Order Verification Page](./assets/order-verification-page.png)
 
 ### 6. Order History & Delivery Info
 View past orders, track deliveries, and see detailed order information.
 
-![Order History Page](https://github.com/user-attachments/assets/6eeafeb1-3d50-4959-8294-caa8affb0a0f)
+![Order History Page](./assets/order-history-page.png)
 
+---
 
 ## Tests
-Code includes tests for: authentication and order flow tests
+Code includes tests for authentication and order flow.
 
-![Test Code / Test Results](https://github.com/user-attachments/assets/87113b9a-15a9-4de4-aae9-c6ffe8e377df)
+![Test Code / Test Results](./assets/test-results.png)
 
+---
 
+## Technologies Used
+- **Frontend:** React.js  
+- **Backend:** Java, Spring Boot, Hibernate  
+- **Databases:** MySQL, Apache Cassandra  
+- **Deployment & Services:** Docker, Nominatim, OSRM  
+- **Authentication & Payments:** JWT, Stripe  
+- **Testing:** Spring Boot testing framework
+
+---
+
+## License
+This project is open source and available under the [MIT License](LICENSE).
