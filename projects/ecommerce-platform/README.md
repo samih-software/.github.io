@@ -5,6 +5,7 @@ Personal distributed e-commerce platform with a **Spring Boot REST API**, separa
 ---
 
 ## System Design Architecture
+
 Overview of the system architecture showing the components, data flow, and interactions within the application.
 
 ![System Design Architecture](./assets/system-architecture.png)
@@ -59,8 +60,6 @@ Overview of the system architecture showing the components, data flow, and inter
 ---
 
 ## Website Flow
-
-A quick overview of the user journey through the website: from landing to order completion.
 
 ### 0. Start Page
 Landing page where users can explore the platform or navigate to login.
