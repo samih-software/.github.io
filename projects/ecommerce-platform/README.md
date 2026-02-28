@@ -8,7 +8,7 @@ Personal distributed e-commerce platform with a **Spring Boot REST API**, separa
 
 Overview of the system architecture showing the components, data flow, and interactions within the application.
 
-![System Design Architecture](./assets/system-architecture.png)
+![System Design Architecture](/assets/system-architecture.png)
 
 ---
 
