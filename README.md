@@ -29,4 +29,4 @@ I'm a software engineer passionate about web development, cloud systems, and AI-
 ---
 
 ## 📫 Contact Me
-- LinkedIn: [linkedin.com/in/samih](https://linkedin.com/in/samih-ouhmad)  
+- LinkedIn: [linkedin.com/in/samih-ouhmad](https://linkedin.com/in/samih-ouhmad)  
