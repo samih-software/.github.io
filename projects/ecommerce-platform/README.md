@@ -113,7 +113,3 @@ Code includes tests for authentication and order flow.
 - **Authentication & Payments:** JWT, Stripe  
 - **Testing:** Spring Boot testing framework
 
----
-
-## License
-This project is open source and available under the [MIT License](LICENSE).
