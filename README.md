@@ -4,27 +4,12 @@ I'm a software engineer passionate about web development, cloud systems, and AI-
 
 ---
 
-## 🛠️ Technical Skills
-
-**Programming Languages:** Python, Java, SQL, C, C++  
-**Frameworks & Tools:** Spring Boot, React.js, Hibernate, Git, Postman  
-**Software Design & Architecture:** REST APIs, Design Patterns, UML, SaaS development  
-**Databases & Cloud:** MySQL, Supabase, Azure VM deployment  
-**AI & Machine Learning:** Machine Learning concepts, Continual Learning, MS-TCN models, Flemish Supercomputer (VSC)  
-
----
-
-### 📂 Projects
+### 📂 Personal Projects
 
 ### [E-commerce Platform for Fish Distributor](https://github.com/samih-software/.github.io/tree/main/projects/ecommerce-platform) (Dec 2025 – Present) – Personal Project
 - Developed a RESTful backend using **Java, Spring Boot, Hibernate, and MySQL** with JWT authentication and **Stripe payment integration**, and connected a proprietary delivery service via **Open Source Routing Machine & Nominatim** using Docker.  
 - Built a **React.js frontend**. 
 - Implemented **end-to-end integration tests** using Spring Boot testing framework.
-
-### **AI-driven Freezing of Gait Detection (Thesis)** (Sep 2024 – Jul 2025) – KU Leuven, E-MEDIA Research
-- Developed a **continual learning approach** for automated FOG detection in Parkinson’s patients.  
-- Built the base model for the **S-Prompt method** and trained/tested on multiple datasets using Python and adapted **MS-TCN models**.  
-- Executed large-scale AI experiments on the **Flemish Supercomputer (VSC)** for training and testing.
 
 ---
 
